@@ -1,0 +1,27 @@
+.banner {
+  position: relative;
+
+  img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+  }
+
+  .text-overlay {
+    position: absolute;
+    top: -9%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+
+    .text-carousel {
+      display: inline-block;
+      padding: 20px;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+}

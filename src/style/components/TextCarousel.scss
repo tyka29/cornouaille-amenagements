@@ -1,0 +1,21 @@
+.text-carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.text-carousel span {
+  opacity: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: opacity 0.5s, transform 0.5s;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.text-carousel span.active {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}

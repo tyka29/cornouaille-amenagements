@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 3rem;
+  
+    img {
+      width: 7rem;
+      filter: invert(100%);
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+  
+    .navbar__links {
+      display: flex;
+      gap: 1rem;
+      list-style-type: none;
+      padding: 0;
+      margin-right: 3rem;
+  
+      a {
+        text-decoration: none;
+        color: white;
+  
+        &.active {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  
